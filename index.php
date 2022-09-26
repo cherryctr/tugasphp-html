@@ -68,7 +68,7 @@
 					
 							 <tr>
 								<td class="text-center">Spesifikasi : </td>
-								<td class="text-center">$deskrispsi</td>
+								<td class="text-center"><?php echo $deskripsi ?></td>
 								
 							 </tr>
 						    <!-- <tr class="alert" role="alert">
