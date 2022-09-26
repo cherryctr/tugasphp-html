@@ -40,6 +40,7 @@
 					<div class="table-wrap">
 
 					<?php
+						$link_gambar ="https://asset.kompas.com/crops/qnW1FltddjqcfV-d_sANACN7G4w=/0x75:800x475/780x390/data/photo/2022/01/17/61e55359df287.jpg";
 						$nama_produk = "Mobil Avanza 1000cc";
 						$harga_produk = 200000;
 						$deskrispsi = "What is Lorem Ipsum?
@@ -55,7 +56,7 @@
 						  </thead>
 						  <tbody>
 							<tr>
-								<td class="text-center" rowspan = "3"><img src="https://asset.kompas.com/crops/qnW1FltddjqcfV-d_sANACN7G4w=/0x75:800x475/780x390/data/photo/2022/01/17/61e55359df287.jpg" alt="" class="img-responsive gambar"></td>
+								<td class="text-center" rowspan = "3"><img src="<?php echo $link_gambar; ?>" alt="" class="img-responsive gambar"></td>
 								<td class="text-center">Nama Produk : </td>
 								<td class="text-center"><?php echo $nama_produk ?></td>
 							  
@@ -68,7 +69,7 @@
 					
 							 <tr>
 								<td class="text-center">Spesifikasi : </td>
-								<td class="text-center"><?php echo $deskripsi ?></td>
+								<td class="text-center"><?php echo $deskrispsi ?></td>
 								
 							 </tr>
 						    <!-- <tr class="alert" role="alert">
